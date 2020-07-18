@@ -1,3 +1,4 @@
+# encoding:utf-8
 from selenium.webdriver.support.select import Select
 
 

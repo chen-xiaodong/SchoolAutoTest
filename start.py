@@ -33,10 +33,8 @@ def start(case_obj):
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.DEBUG)  # 打印源码中的日志
     cases = load_case('case.yaml')
     driver = load_driver()
-    # 登录流程
     login = Login(driver)
     login.get_url(target_Url)
     # start(login)
