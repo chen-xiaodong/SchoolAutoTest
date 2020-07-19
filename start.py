@@ -1,8 +1,10 @@
-import logging
+#! /usr/bin/env python3
+
 from time import sleep
+
 from case import case
 from config import drivers, web_driver_path, target_Url
-from pages import Login, CourseIndex
+from pages import Login
 
 
 def load_case(path):
