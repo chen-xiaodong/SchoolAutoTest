@@ -39,4 +39,5 @@ if __name__ == '__main__':
     driver = load_driver()
     login = Login(driver)
     login.get_url(target_Url)
-    # start(login)
+    start(login)
+    print("success")
