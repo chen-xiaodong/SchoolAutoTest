@@ -8,6 +8,8 @@ def set_options():
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     options.add_argument('windows-size=1920x1080')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
     return options
 
 
