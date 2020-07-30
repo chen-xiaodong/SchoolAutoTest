@@ -1,0 +1,33 @@
+case1:
+  name: login
+  steps:
+    step1:
+      label: username
+      action: send_keys
+      value: 015386
+    step2:
+      label: password
+      action: send_keys
+      value: 5386
+    step3:
+      label: submit
+      action: click
+  checks:
+    url: https://www.maxluck.top/dist/#/index
+
+case2:
+  name: submit
+  steps:
+    step1:
+      label: username
+      action: send_keys
+      value: 015386
+    step2:
+      label: password
+      action: send_keys
+      value: 5386
+    step3:
+      label: submit
+      action: click
+  checks:
+    url: https://www.maxluck.top/dist/#/index
